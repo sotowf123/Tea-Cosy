@@ -1,0 +1,81 @@
+body{
+background-color: black;
+color:sesashell;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-family:Helvetica;
+font-size:22px;
+
+}
+
+
+#nav_bar{
+    position:fixed;
+    display:inline-flex;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    top:0px;
+    left:0px;
+    height:69px;
+    width:100%;
+    background-color: black;
+    margin:0px;
+}
+
+
+#tea_cozy_logo{
+    justify-content: flex-start;
+    height: 50px;
+    left: 10px;
+    margin-left: 10px;
+}
+
+.button{
+    font-size: 22px;
+    color:seashell;
+    font-family: helvetica;  
+    margin: 10px;
+    text-decoration: underline;
+
+}
+#buttons{
+    display:inline-flex;
+    justify-content: flex-end;
+    width:100%;
+}
+
+.mission{
+    background-image: url("img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    color:white;
+    display: flex;
+    flex-wrap:wrap;
+    }
+
+.mission div{   
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width:100%;
+    height: auto;
+    margin:auto;  
+    justify-content: center;
+}
+
+.tea_of_the_month{
+display:flex;
+flex-direction: column;
+align-items:center;
+border: 2px solid red;
+color: seashell;
+font-family: helvetica;
+height:700px;
+width: 1200px;
+}
+   
